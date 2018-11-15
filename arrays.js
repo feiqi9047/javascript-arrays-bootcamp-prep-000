@@ -1,5 +1,6 @@
 var chocolateBars = ['snickers','hundred grand', 'kitkat', 'skittles']
 
+<<<<<<< HEAD
 function addElementToBeginningOfArray(array, element) {
   return [element, ...array]
 }
@@ -39,3 +40,7 @@ function destructivelyRemoveElementFromEndOfArray(array){
 function removeElementFromEndOfArray(array){
   return array.slice(0,array.length-1)
 }
+=======
+var superheroines = ["catwoman", "she-hulk", "mystique"];
+superheroines.push("wonder woman")
+>>>>>>> 0b567d134eaa9f1898112d5d263960fbbbf2c4d5
